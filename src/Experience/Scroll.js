@@ -8,7 +8,6 @@ class Scroll {
     this.gallery = gallery
     this.debug = debug
 
-    // Scroll state
     this.scrollTarget = 0
     this.scrollCurrent = 0
     this.scrollSmoothing = 0.08
@@ -18,7 +17,6 @@ class Scroll {
     this.previousScrollCurrent = 0
     this.invertScroll = false
 
-    // Velocity
     this.rawVelocity = 0
     this.velocity = 0
     this.velocityDamping = 0.12
